@@ -1,6 +1,24 @@
+import {Head, Work, Nav} from '../components'
+import { supabase } from '../utils/client'
 
-export default function Home() {
+export async function getStaticProps(context) {
+  const { data, error } = await supabase.from('Portfolio-Projects').select('*');
+  if(error) {
+    throw new Error(error)
+  }
+  return{
+    props: {
+      data
+    }
+  }
+}
+export default function Home({data}) {
+  console.log(data)
   return (
-   <h1 className='text-center'>my site page</h1>
+    <div className="">
+      <Nav />
+      <Head />
+      <Work projects={data}  />
+    </div>
   )
 }
