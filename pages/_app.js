@@ -7,6 +7,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Eric</title>
+        <link rel='shortcut icon' href='/ninjaFavicon.png' />
         <meta
           name="description"
           content="Eric's personal site - FullStack web3 engineer"
