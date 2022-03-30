@@ -15,7 +15,7 @@ export async function getStaticProps(context) {
 export default function Home({data}) {
   console.log(data)
   return (
-    <div className="">
+    <div>
       <Nav />
       <Head />
       <Work projects={data}  />
