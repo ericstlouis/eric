@@ -22,7 +22,7 @@ const Head = () => {
             &lt;/h2&gt;
           </span>
         </h2>
-        <p className="flex md:text-lg md:w-10/12 md:ml-16 lg:ml-0 lg:w-4/12 place-self-center font-poppins flex-col">
+        <p className="flex md:text-lg md:w-10/12 md:ml-16 lg:ml-0 lg:w-6/12 place-self-center font-poppins flex-col">
           <span className="text-sm mb-1 text-left text-primary-secondary">
             &lt;p&gt;
           </span>
@@ -34,7 +34,7 @@ const Head = () => {
         </p>
       </div>
       <div className="mt-4 md:mt-10">
-        <h4 className="text-primary-pink text-2xl md:text-4xl font-NTR mb-2">
+        <h3 className="text-primary-pink text-2xl md:text-4xl font-NTR mb-2">
           <span className="text-base md:text-lg text-primary-secondary">
             &lt;h4&gt;
           </span>
@@ -42,7 +42,7 @@ const Head = () => {
           <span className="text-base md:text-lg text-primary-secondary">
             &lt;/h4&gt;
           </span>
-        </h4>
+        </h3>
         <div className='md:w-9/12 lg:w-2/6 md:ml-20 lg:ml-3 flex flex-col justify-center'>
           <span className="text-base text-primary-secondary">&lt;ul&gt;</span>
           <div className="flex justify-around	font-NTR font-extralight text-xl md:text-2xl  sm:mt-2 ">

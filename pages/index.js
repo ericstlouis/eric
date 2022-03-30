@@ -1,4 +1,4 @@
-import {Head, Work, Nav} from '../components'
+import {Head, Work, Nav, Footer} from '../components'
 import { supabase } from '../utils/client'
 
 export async function getStaticProps(context) {
@@ -19,6 +19,7 @@ export default function Home({data}) {
       <Nav />
       <Head />
       <Work projects={data}  />
+      <Footer />
     </div>
   )
 }
