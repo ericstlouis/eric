@@ -1,6 +1,6 @@
 import React from 'react'
 
-const layout = (props) => {
+const Layout = (props) => {
   return (
     <div className='px-8 py-6 lg:px-36 lg:py-10'>
       {props.children}
@@ -8,4 +8,4 @@ const layout = (props) => {
   )
 }
 
-export default layout
+export default Layout
